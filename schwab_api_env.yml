@@ -1,0 +1,13 @@
+name: schwab_api
+channels:
+  - conda-forge
+dependencies:
+- python==3.11
+- pip
+- pip:
+    - requests 
+    - websockets 
+    - python-dotenv 
+    - tk
+    - numpy
+    - pandas
